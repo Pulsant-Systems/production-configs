@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "This is for example only"
+exit
+
 set -e
 
 CERT_NAME="devel_system"

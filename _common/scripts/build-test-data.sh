@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+echo "This is for example only"
+exit
+
 #docker run -v ./var/certs:/certs ubuntu:16.04
 
 docker run --rm -v ${PWD}/var/dhparam:/dhparam ubuntu:16.04 sh -c 'apt update; apt install -y openssl; openssl dhparam -out /dhparam/dhparam.pem 2048'
