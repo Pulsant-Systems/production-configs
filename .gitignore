@@ -1,2 +1,4 @@
 /.idea
 /nbproject
+/asset_engine/production/var
+/asset_engine/rolling/var
